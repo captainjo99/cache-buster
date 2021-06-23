@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import os
 
 class MyParser:
-    configPath = "./src/"
+    configPath = "./"
 
     def __init__(self):
         self.domainName = ""
@@ -47,4 +47,5 @@ class MyParser:
             return False
         self.domainName = data.domain.text
         self.webDir = data.webdir.text
+        self.version = data.version.text
         return True
