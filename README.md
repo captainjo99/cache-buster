@@ -22,7 +22,4 @@ to:
 <link href="styles/style?13-06-21.css" rel="stylesheet">
 ...
 ```
-
-##TODO
-- add cli
-- actually make something working
+## Configuration
