@@ -35,6 +35,7 @@ for match in matches:
     print(match)
 
 for file in matches:
+    print("Parsing: " + file)
     data = parser.parseFile(file)
     links = parser.findTags(data, "link")
 
